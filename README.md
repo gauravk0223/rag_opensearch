@@ -31,3 +31,6 @@ git clone https://github.com/gauravk0223/rag_opensearch.git
 
 ### 4. Verify is OpenSearch with Docker is running 
     curl -X GET "https://localhost:9200" -ku admin:<password>
+
+## 🔑 Keywords
+RAG, Retrieval Augmented Generation, OpenSearch, LangChain, Vector Database, Semantic Chunking, HNSW, NLP, Document Retrieval, Python
