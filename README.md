@@ -28,3 +28,6 @@ git clone https://github.com/gauravk0223/rag_opensearch.git
 ### 3. Run OpenSearch Locally with Docker
     docker pull opensearchproject/opensearch:latest
     docker run -it -p 9200:9200 -p 9600:9600 -e OPENSEARCH_INITIAL_ADMIN_PASSWORD=<password> -e "discovery.type=single-node"  --name opensearch-node opensearchproject/opensearch:latest
+
+### 4. Verify is OpenSearch with Docker is running 
+    curl -X GET "https://localhost:9200" -ku admin:<password>
