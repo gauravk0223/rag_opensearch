@@ -19,7 +19,11 @@ This repository implements a **Retrieval Augmented Generation (RAG) pipeline** u
 ### 1. Clone the Repository
 git clone https://github.com/gauravk0223/rag_opensearch.git
 
-### 2. pip install -r requirements.txt  (Make sure you have Python 3.13 installed)
+### 2. Install the required libs
+    pip install -r requirements.txt  (Make sure you have Python 3.13 installed)
+
+### 4. Get the tokens 
+    Update the .env file with all the required tokes for embedding and llm models
 
 ### 3. Run OpenSearch Locally with Docker
     docker pull opensearchproject/opensearch:latest
