@@ -1,0 +1,11 @@
+pydantic
+python-dotenv
+langchain
+langchain-core
+langchain_community
+langchain_experimental
+langchain_openai
+langchain_huggingface
+langchain-groq
+pypdf
+opensearch-py
