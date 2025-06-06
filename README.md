@@ -13,3 +13,14 @@ This repository implements a **Retrieval Augmented Generation (RAG) pipeline** u
 - **LangChain Prompt Integration:** Leverages prompts from the LangChain hub for flexible and customizable language model interactions.
 
 ---
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+git clone https://github.com/gauravk0223/rag_opensearch.git
+
+### 2. pip install -r requirements.txt  (Make sure you have Python 3.13 installed)
+
+### 3. Run OpenSearch Locally with Docker
+    docker pull opensearchproject/opensearch:latest
+    docker run -it -p 9200:9200 -p 9600:9600 -e OPENSEARCH_INITIAL_ADMIN_PASSWORD=<password> -e "discovery.type=single-node"  --name opensearch-node opensearchproject/opensearch:latest
